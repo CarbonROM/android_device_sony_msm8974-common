@@ -80,12 +80,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=1 \
     persist.camera.HAL3.enabled=0 \
     camera2.portability.force_api=1
-
-# CameraAV MM HAL1 hacks
-PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.legacyencoder=true \
-    media.stagefright.less-secure=true
-    
+   
 # Wi-Fi interface name
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
