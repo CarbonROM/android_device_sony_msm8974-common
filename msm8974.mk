@@ -64,6 +64,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lights.msm8974
 
+# Camera
+PRODUCT_PACKAGES += \
+	tad_static \
+	wait4tad_static \
+	libshims_wvm \
+	libshims_signal \
+	libshims_idd \
+    libsonycamera
+
 # Media profile
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
