@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 9604B6AC 1503344347 +0530\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_sony_msm8974-common\nnonce 1503344354-0AAE19714BC3081D8C1DB0288F187991C95474C3\n\n0000000000000000000000000000000000000000 69564f6d6baba14c4edb407a1b26dafb4db6f65e refs/for/cr-5.1\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v2\n\niQEcBAABCAAGBQJZmzbbAAoJEJS8URaWBLase2cIAIQpRHL7wWtz+1J5q3oys74R\nbUKdceA0dcYBpXPsjT0Mw4C7ktCbnHfnb9ABbQOdhUQM2vLLB59L5x+uR0lYEkQH\nei6CwIEh/2zvuekzHecwoR4hE0MklrI57IL0EGBjwqkmzoZODzuBLAlP6RnA93Q+\n5dmPgn9gHgctP7BBJlRe8nyL7M1KwSe9pnpEzA0lUnM2iWBqsYruPBchmuO5JXyy\nLirGqR84nvoVmWOJVOlfimIjbYz4wOopgw9OsqC1ZBII+o0wTGaIB5LRjciRKqpR\ncRw7Fg/Sux6XL7B2zIwS68kroFVuoB20Gd+WmHnNbJxai5sXZthC8CZJlyo+YRk\u003d\n\u003dRfLr\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
