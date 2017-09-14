@@ -122,6 +122,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     keycheck
 
+<<<<<<< HEAD
+=======
+# Seccomp
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/seccomp/mediacodec.policy:system/vendor/etc/seccomp_policy/mediacodec.policy \
+    $(LOCAL_PATH)/seccomp/mediaextractor.policy:system/vendor/etc/seccomp_policy/mediaextractor.policy
+
+# Sensors
+>>>>>>> 0130d37... msm8974: Add seccomp policy
 PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
