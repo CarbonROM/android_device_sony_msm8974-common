@@ -1,0 +1,9 @@
+on boot
+    chmod 664 /sys/class/leds/led:rgb_red/brightness
+    chmod 664 /sys/class/leds/led:rgb_green/brightness
+    chmod 664 /sys/class/leds/led:rgb_blue/brightness
+
+service light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service.sony_msm8974
+    class hal
+    user system
+    group system
