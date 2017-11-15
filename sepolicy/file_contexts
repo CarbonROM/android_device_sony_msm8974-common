@@ -110,6 +110,9 @@
 /sys/devices(/soc\.0)?/fdb00000\.qcom,kgsl-3d0/kgsl/kgsl-3d0/max_gpuclk           u:object_r:sysfs_thermal:s0
 /sys/devices(/soc\.0)?/fdb00000\.qcom,kgsl-3d0/kgsl/kgsl-3d0/reset_count          u:object_r:sysfs_thermal:s0
 
+# rmt_storage
+/sys/devices/fd80000.rmtfs_sharedmem/uio/uio0(/.*)?                               u:object_r:sysfs_uio_file:s0
+
 # ZRAM
 /sys/devices/virtual/block/zram0/mm_stat                                          u:object_r:sysfs_zram:s0
 
