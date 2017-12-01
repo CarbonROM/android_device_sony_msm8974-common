@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 3B3CE39DC981143E2E29B65A795F73D22FB93FAE 1512128611 +0100\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_sony_msm8974-common\nnonce 1512128625-5EE8ADA4E3C109883521CACA529BBB45F6560331\n\n0000000000000000000000000000000000000000 f2566454943ea6fbbcfcd4d31eb4226df472ef9f refs/for/cr-6.0\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEOzzjncmBFD4uKbZaeV9z0i+5P64FAlohQGMACgkQeV9z0i+5\nP64opggAprhILwMe6eOkVNta2CkcA0UcyVbwDUf9tvaTnWe0g91zc7ACrpjxYbKF\njS/EYiKvYfc2PFrWlDr0Xep5X1/qryqQXMEZ1eqWLiKl2eSQluVHXSebBuQykYXc\npqAoPV+gl+wZYHHAUIsqvf8XyWCXIbrbRYzByJzjIHRMEJacoEioby9c2/9QQJ0A\nLkmLzt5RUpnmJexkcKdf4heJiWrP8CZQINib8Ba1+v3T9tXprU6DVEmnhU1xLb6m\nx88E//7eiCx0jHzOY7TPKMOzqh/tfko9A8HFtkr0z/yN5tmtNpnLIrT+9qNS34dv\nT8anpeAAgQ1Zw/U8Y0J0pguglJFlwg\u003d\u003d\n\u003dvkJN\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
