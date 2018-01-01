@@ -4,4 +4,7 @@ allow hal_sensors_default sysfs_subsys:file r_file_perms;
 allow hal_sensors_default sysfs_subsys:dir search;
 allow hal_sensors_default oemfs:dir search;
 allow hal_sensors_default self:socket create_socket_perms;
+allow hal_sensors_default sensors:unix_stream_socket connectto;
+allow hal_sensors_default sensors_device:chr_file getattr;
+allow hal_sensors_default sensors_socket:sock_file write;
 allowxperm hal_sensors_default self:socket ioctl msm_sock_ipc_ioctls;
