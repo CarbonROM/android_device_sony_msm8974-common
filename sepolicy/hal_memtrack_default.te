@@ -1,6 +1,47 @@
 allow hal_memtrack_default debugfs_kgsl:dir search;
 allow hal_memtrack_default debugfs_kgsl:file { open read getattr };
 allow hal_memtrack_default oemfs:dir search;
+allow hal_memtrack_default system_app:file getattr;
+allow hal_memtrack_default system_app:dir search;
+allow hal_memtrack_default system_app:file { open read getattr };
+allow hal_memtrack_default servicemanager:dir search;
+allow hal_memtrack_default servicemanager:file { open read getattr };
+allow hal_memtrack_default servicemanager:file getattr;
+allow hal_memtrack_default hwservicemanager:dir search;
+allow hal_memtrack_default hwservicemanager:file { open read getattr };
+allow hal_memtrack_default hwservicemanager:file getattr;
+allow hal_memtrack_default credmgrd:dir search;
+allow hal_memtrack_default credmgrd:file { getattr open };
+allow hal_memtrack_default hal_configstore_default:dir search;
+allow hal_memtrack_default hal_configstore_default:file { getattr open };
+allow hal_memtrack_default hal_dumpstate_default:dir search;
+allow hal_memtrack_default hal_dumpstate_default:file { getattr open };
+allow hal_memtrack_default hal_keymaster_default:dir search;
+allow hal_memtrack_default hal_keymaster_default:file { getattr open };
+allow hal_memtrack_default iddd:dir search;
+allow hal_memtrack_default iddd:file { getattr open };
+allow hal_memtrack_default init:dir search;
+allow hal_memtrack_default init:file { getattr open };
+allow hal_memtrack_default suntrold:dir search;
+allow hal_memtrack_default suntrold:file { getattr open };
+allow hal_memtrack_default ta_qmi:dir search;
+allow hal_memtrack_default ta_qmi:file { getattr open };
+allow hal_memtrack_default tad:dir search;
+allow hal_memtrack_default tad:file { getattr open };
+allow hal_memtrack_default vndservicemanager:dir search;
+allow hal_memtrack_default vndservicemanager:file { getattr open };
+allow hal_memtrack_default hal_health_default:dir search;
+allow hal_memtrack_default hal_health_default:file { getattr open };
+allow hal_memtrack_default hal_light_default:dir search;
+allow hal_memtrack_default hal_light_default:file { getattr open };
+allow hal_memtrack_default hal_power_default:dir search;
+allow hal_memtrack_default hal_power_default:file { getattr open };
+allow hal_memtrack_default hal_sensors_default:dir search;
+allow hal_memtrack_default hal_sensors_default:file { getattr open };
+allow hal_memtrack_default hal_thermal_default:dir search;
+allow hal_memtrack_default hal_thermal_default:file { getattr open };
+allow hal_memtrack_default hal_usb_default:dir search;
+allow hal_memtrack_default hal_usb_default:file { getattr open };
 
 # Memtrack reads proc/<pid>/cmdline to check if process is surfaceflinger.
 # Grant access if that's the case; don't log denials for other processes.
