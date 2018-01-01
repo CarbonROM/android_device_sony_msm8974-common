@@ -22,3 +22,6 @@ allow mpdecision sysfs:file { getattr read };
 allow mpdecision sysfs_memory:dir search;
 allow mpdecision sysfs_memory:file { open read write };
 allow bootstat sysfs:file { getattr open read };
+
+allow mpdecision hal_power_default:dir search;
+allow mpdecision hal_power_default:file { open read write };
