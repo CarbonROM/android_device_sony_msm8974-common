@@ -9,6 +9,14 @@ allow init trim_area_partition_device:blk_file setattr;
 #Torch
 allow init sysfs_camera_torch:lnk_file read;
 
+allow init sensors_device:chr_file getattr;
+
+allow init proc_audiod:file getattr;
+
+allow init cache_file:file append;
+
+allow init property_socket:sock_file write;
+
 
 #============= qti_init_shell ==============
 allow qti_init_shell iddd_file:dir { getattr open read remove_name rmdir write };
