@@ -1,0 +1,2 @@
+allow sysinit property_socket:sock_file write;
+
