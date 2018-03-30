@@ -3,13 +3,13 @@
     "remote": "lineage",
     "repository": "LineageOS/android_device_sony_common",
     "target_path": "device/sony/common-caf",
-    "revision": "lineage-15.0"
+    "revision": "lineage-15.1"
   },
   {
     "remote": "lineage",
     "repository": "LineageOS/android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision": "lineage-15.0"
+    "revision": "lineage-15.1"
   },
   {
     "remote": "gh",
