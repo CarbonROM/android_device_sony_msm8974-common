@@ -22,7 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OpenGL ES 3.0
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
-    
+
 # OMX properties
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.media.treble_omx=false
@@ -74,7 +74,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera.disable_treble=true \
     ro.qc.sdk.camera.facialproc=false \
     ro.qc.sdk.gestures.camera=false \
     camera.disable_zsl_mode=1 \
