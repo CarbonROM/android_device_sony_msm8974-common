@@ -59,9 +59,8 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-	android.hardware.nfc@1.0-impl \
 	android.hardware.nfc@1.0-service
-	
+
 # Netd
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0
