@@ -6,12 +6,6 @@
     "revision": "lineage-15.1"
   },
   {
-    "remote": "lineage",
-    "repository": "LineageOS/android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision": "lineage-15.1"
-  },
-  {
     "remote": "gh",
     "repository": "omnirom/android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
