@@ -29,7 +29,7 @@ ifeq (,$(filter $(TARGET_KERNEL_SOURCE),))
 endif
 
 # use CAF variants
-BOARD_USES_QCOM_HARDWARE := true
+BOARD_USES_QTI_HARDWARE := true
 TARGET_USES_QCOM_BSP := true
 TARGET_QCOM_MEDIA_VARIANT := caf-msm8974
 
