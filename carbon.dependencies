@@ -9,18 +9,18 @@
     "remote": "gh",
     "repository": "omnirom/android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
-    "revision": "android-8.1"
+    "revision": "android-9.0"
   },
   {
     "remote":   "gh",
     "repository":  "omnirom/android_hardware_sony_location",
     "target_path": "hardware/sony/location",
-    "revision":    "android-8.1"
+    "revision":    "android-9.0"
   },
   {
     "remote": "gh",
     "repository": "omnirom/android_hardware_sony_macaddrsetup",
     "target_path": "hardware/sony/macaddrsetup",
-    "revision": "android-8.1"
+    "revision": "android-9.0"
   }
 ]
