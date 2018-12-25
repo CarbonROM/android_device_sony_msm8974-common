@@ -9,7 +9,7 @@
     "remote": "gh",
     "repository": "omnirom/android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
-    "revision": "android-9.0"
+    "revision": "android-8.1"
   },
   {
     "remote":   "gh",
