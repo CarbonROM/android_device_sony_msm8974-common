@@ -1,9 +1,9 @@
 [
   {
-    "remote": "lineage",
-    "repository": "LineageOS/android_device_sony_common",
+    "remote": "carbon",
+    "repository": "CarbonROM/android_device_sony_common",
     "target_path": "device/sony/common-caf",
-    "revision": "lineage-15.1"
+    "revision": "cr-7.0"
   },
   {
     "remote": "gh",
