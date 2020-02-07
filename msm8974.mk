@@ -20,7 +20,7 @@ include $(PLATFORM_PATH)/system_prop.mk
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(PLATFORM_PATH)/overlay \
-    $(PLATFORM_PATH)/overlay-lineage
+    $(PLATFORM_PATH)/overlay-carbon
 
 ifneq ($(BOARD_HAVE_RADIO),false)
     $(call inherit-product, $(PLATFORM_PATH)/radio.mk)
@@ -136,10 +136,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service \
     lights.msm8974
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sysfs
-
 # Media profile
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
@@ -209,10 +205,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
