@@ -51,14 +51,6 @@ BOARD_HAVE_BLUETOOTH := true
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 MALLOC_SVELTE_FOR_LIBC32 := true
 
-# Camera Shims
-TARGET_LD_SHIM_LIBS := \
-    /system/vendor/bin/credmgrd|/system/vendor/lib/libshims_signal.so \
-    /system/vendor/bin/mm-qcamera-daemon|libandroid.so \
-    /system/vendor/bin/suntrold|/system/vendor/lib/libshims_signal.so \
-    /system/lib/hw/camera.vendor.qcom.so|libsensor.so \
-    /system/lib/libcammw.so|libsensor.so
-
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
@@ -104,6 +96,15 @@ include device/qcom/sepolicy-legacy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
     $(PLATFORM_PATH)/sepolicy
+
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /system/vendor/bin/credmgrd|/system/vendor/lib/libshims_signal.so \
+    /system/vendor/bin/mm-qcamera-daemon|libandroid.so \
+    /system/vendor/bin/suntrold|/system/vendor/lib/libshims_signal.so \
+    /system/lib/hw/camera.vendor.qcom.so|libsensor.so \
+    /system/lib/libcammw.so|libsensor.so \
+    /system/vendor/lib/libril-qc-qmi-1.so|libaudioclient_shim.so
 
 # SODP build barrier
 PRODUCT_PLATFORM_SOD := true

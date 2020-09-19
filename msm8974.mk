@@ -183,6 +183,9 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.0-impl \
     android.hardware.radio.deprecated@1.0-impl
 
+PRODUCT_PACKAGES += \
+    libaudioclient_shim
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(PLATFORM_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
