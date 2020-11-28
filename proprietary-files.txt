@@ -34,4 +34,4 @@ vendor/bin/mpdecision|bf788461981e8b593db5bb224e6e8059ef5adb57
 vendor/lib/libqti-perfd-client.so|97b5ef98e5df37a743c910556d29443a459e21b5
 
 # Widevine - from angler OPR6.170623.017
-vendor/lib/mediadrm/libwvdrmengine.so|66ba66d047044f92eb0eada1faf6a5799ded90ab
+vendor/lib/mediadrm/libwvdrmengine.so|66ba66d047044f92eb0eada1faf6a5799ded90ab|2f70d96729bc35389d98ab3a1e8f48f4f7b659c2

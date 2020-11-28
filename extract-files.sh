@@ -58,6 +58,13 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+        vendor/lib/mediadrm/libwvdrmengine.so)
+            patchelf --replace-needed libprotobuf-cpp-lite.so libprotobuf-cpp-lite-v29.so "${2}"
+            ;;
+    esac
+}
 # Initialize the helper for platform
 setup_vendor "${DEVICE_PLATFORM}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 
