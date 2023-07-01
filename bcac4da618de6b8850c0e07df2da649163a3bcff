@@ -1,4 +1,5 @@
 {
   "pushCert": "certificate version 0.1\npusher Christian Oder \u003cmyself5@carbonrom.org\u003e 1560777507 +0200\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_sony_msm8974-common\nnonce 1560777507-2B1EE4B0522DDD3EFD97DDCFC6C238DD4D2638D1\n\n0000000000000000000000000000000000000000 48b9eff3f26a14cd45a59a2610d4b43cf3bc2973 refs/for/cr-7.0/shinano-official\n-----BEGIN PGP SIGNATURE-----\n\niQJKBAABCAA0FiEEAeKysoG6T9uCVbCUU4O8v8DvjyIFAl0HkyMWHG15c2VsZjVA\nY2FyYm9ucm9tLm9yZwAKCRBTg7y/wO+PIoVoD/90NW3YWTsum7t3FNWHwWTSmMMZ\nmUvRFrer33wrL+tLk1fTnI+pZDMlFIZ4H7Vaq64DLd3/BQKdDm3I7BsINliPnDoW\nTT790M8ph/Kv1GY6Nvmg1GeBkY1p2QdB9yfnRi0UznBIpHa9x22BM4Y/r3cHIvaW\nflyX23UXacPyyCu2Xpch0CCBa2hBocJufdtGU0JOwSeFx+IWdad+ovA1N0zssFca\nsLC3Y/7Kdr2Wl84Pbvxo0Mm6DzIKGcGLlPlcnroKAjmUgcWHEMhu9e8mpXh0cPx/\n8Y8QtjTvLAzfYh7zDZD90RP2e8Ew0S68gMsNymaKNcEWvK6GCi2Uwoc0qdI7FBaZ\nsIHAJxp7uqW3jABQFT+XhOedEoKeAkxsXui6oyIi5sD5UFkXa3eE/aPEMhlJc/Ir\nQm1+udpeUkVoKGGduPv7uveBRfkMgL6l5jfnjau6E21/YCMSMuECyuDcjIy7X3b+\n+3ExUOEQr/FXLoqvyKmACrNvb+dRNO3jMz3MR6O5UXyXMUdpdEnlzXPaof7TOGL8\nA/n8B7yG7Qg8UOH2RsXKatgQwb/834QZa3+I/AeKUwGTHZqHCZs8wJmsoX116Sha\nQmBiH5Ato8DaO+XmY+aDRMA67oYtGScR6/sTq2yuBuBFFDxRCguZ/GeCTnPKACcb\nKjKjZaAmMuvq+XOqHA\u003d\u003d\n\u003dO4Oz\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [],
+  "submitRequirementResults": []
 }
